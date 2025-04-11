@@ -19,6 +19,7 @@
  * - `deletedRows`: A `Set` that tracks rows marked for deletion.
  * - `modifiedRows`: An object that tracks changes to rows, indexed by `rowId`.
  * - `originalData`: An object that stores the original values of rows for reverting changes.
+ * - `text`: strings for various prompts/interface elements.
  *
  * Constructor options:
  * - `nextRowId`: Counter for generating unique IDs for new rows.
@@ -29,6 +30,7 @@
  * - `keys`: array of column names for postback.
  * - `actionHeader`: text label for actions column.
  * - `source`: array of names of data sources for select columns.
+ * - `colours`: object containing cell colours
  */
 
 class EditableTable {
