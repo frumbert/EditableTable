@@ -1,7 +1,7 @@
 # EditableTable
 An unopinionated editable DataTable
 
-I hadn't found a simple table editor that wasn't bloatware. So I made one with as little opinion as I could manage. It allows you to edit the cells through a `select -> press enter -> make changes -> press enter to save` workflow (or press escape to revert the cell back to its unedited value).
+I hadn't found a simple table editor that wasn't bloatware. So I made one with as little opinion as I could manage. It allows you to edit the cells through a `select -> press enter -> make changes -> press enter to save -> tab to select next cell` workflow (or press escape to revert the cell back to its unedited value).
 
 * Works on standard html tables.
 * Cell editing with keyboard and mouse interactions.
@@ -15,7 +15,7 @@ I hadn't found a simple table editor that wasn't bloatware. So I made one with a
 * Unopinionated styles (only adds 'focus' and 'dirty' classes)
 * Clean, easy to read code
 
-No libraries or modules. No React. No npm. Just a regular, modern class.
+No libraries or modules. No React. No npm. No build process. Single file.
 
 ## Obligatory GIF
 ![editable-table](https://github.com/user-attachments/assets/d620326d-12a0-4fe4-ac3e-ce80e1070337)
